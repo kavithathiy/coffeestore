@@ -1,0 +1,46 @@
+
+html{
+    background-color:#f7e7ce;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    background-color:#f7e7ce;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    color: Black; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#f7e7ce;
+   }
+
+.navlist{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button{
+    background-color:grey;
+    padding:10px;
+    color:white;
+}
+
+.nav-item{
+    list-style:none;
+    margin-right:2rem;
+}
+
+.intro{
+    display:flex;
+    align-items: center;
+}
+
+.footer{
+    background-color:red;
+    color:black;
+}

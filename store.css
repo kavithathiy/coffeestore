@@ -1,0 +1,68 @@
+body{
+    background-color:antiquewhite;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+html{
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button{
+    background-color:grey;
+    padding:10px;
+    color:white;
+}
+
+.nav-item{
+    list-style:none;
+    margin-right:2rem;
+}
+
+.wrapper{
+    text-align:center;
+    background-color:white;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex: 1 1 10em;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+
+.coffees{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.coffee-img{
+    padding:15px 25px;
+}
+
+.pricing-button{
+    border: 1px solid black;
+    border-radius:10px;
+    color:brown;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+}
+
+.pricing-button:hover, .pricing-button:focus {
+    background-color: beige;
+}
